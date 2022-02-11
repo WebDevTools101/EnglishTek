@@ -1,0 +1,40 @@
+	.flag{
+		padding: 7px 25px;
+		position: relative; 
+		background: #c13100;
+		text-align: center;
+		list-style:none;
+		white-space: nowrap;
+	    vertical-align: middle;
+	    display: inline-block;
+	    font-size: 14px;
+	    font-weight: 100;
+	    color: #FFF;
+	}
+	.flag:hover{
+		background-color: #FFA500;
+		color: #FFF;
+		text-decoration: none;
+	}
+	.flag:before {
+	  	content: ' ';
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 0;
+		height: 0;
+	    border-left: 17px solid #f5f5f5;
+	    border-top: 18px solid transparent;
+	    border-bottom: 18px solid transparent;
+	}
+	.flag:after {
+	  	content: ' ';
+	  	position: absolute;
+	  	right: 0;
+	  	bottom: 0;
+	  	width: 0;
+	  	height: 0;
+	  	border-top: 18px solid #f5f5f5;
+    	border-left: 17px solid transparent;
+    	border-bottom: 18px solid #f5f5f5;
+	}

@@ -1,0 +1,27 @@
+.banner-sec{
+	background:url(../../images/logo/EnglishTek.jpg) no-repeat left bottom;
+	background-size:cover; 
+	min-height:500px; 
+	border-radius: 0 10px 10px 0; 
+	padding:0;}
+}
+input[type="text"],input[type="password"]{
+	border:none;
+	border-bottom: solid .5px #000;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+	border-bottom: solid .5px #000;
+	outline: none;
+}
+body{
+	background: #071b33;
+    background: -webkit-linear-gradient(to bottom, #071b33, #119e9e);
+    background: linear-gradient(to bottom, #071b33, #119e9e) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
